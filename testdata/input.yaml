@@ -1,0 +1,14 @@
+'clustername': 'kubernetes'
+'k8s':
+  'kind': pod
+  'metadata': {'name': 'ceph-pod1'
+                 'namespace': 'default'
+                   'labels': 'None'
+  }
+  spec: {'containers': [{'name':}
+                        'image':
+                          'volume-mounts':]}
+  'status':
+    'container-statuses':[{'name': 'nginx',
+                           'state': }]
+      'host-ip': '172.16.50.13'
