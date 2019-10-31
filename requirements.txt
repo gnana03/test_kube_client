@@ -1,6 +1,5 @@
 pip
 setuptools
-scikit-image
 selenium
 nose
 flake8

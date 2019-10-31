@@ -4,7 +4,7 @@ import os
 from api.pod_client import PodsClient
 
 
-class deployments_fixtures(PodsClient):
+class deployments_fixtures():
 
 
     @pytest.fixture()
