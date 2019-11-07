@@ -23,6 +23,7 @@ The framework requires
 - [python 2.7+ / 3.6+](https://www.python.org/downloads/)
 - [pip](pip )
 - [pytest](https://docs.pytest.org/en/latest/getting-started.html) to be installed in the machine.
+- kubernetes cluster or kube config file
 
 ## Running the tests
 
