@@ -17,7 +17,7 @@ pip install setup.py
 ## Key Features :
       This module tests the various kubernetes API resources such as Deployments, Pods, ConfigMaps, Secrets, namespaces, replicasets
     
-## pre requisites
+## Pre-requisites
 
 The framework requires
 - [python 2.7+ / 3.6+](https://www.python.org/downloads/)
