@@ -52,6 +52,7 @@ setup(
         'requests>=2.19.1',
         'pytest>=4.0.2',
         'pytest-html<1.21.0',
-        'kubernetes'
+        'kubernetes',
+        'kubetest'
     ], )
 print("\n*** Kube client Package Installation Complete! ***\n")

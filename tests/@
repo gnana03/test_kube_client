@@ -1,0 +1,26 @@
+"""
+Creates, updates, and deletes a deployment using AppsV1Api.
+"""
+import os
+
+import pytest
+import yaml
+from kubernetes import client, config
+
+def test_deployment_crud(simple_deployment):
+    # Configs can be set in Configuration class directly or using helper
+    # utility. If no argument provided, the config will be loaded from
+    # default location.
+#    config.load_kube_config()
+#    apps_v1 = client.AppsV1Api()
+    # Create a deployment object with client-python API. The deployment we
+    # created is same as the `nginx-deployment.yaml` in the /examples folder.
+    deployment = simple_deployment
+
+    create_deployment deployment)
+
+    update_deployment(apps_v1, deployment)
+
+    delete_deployment("nginx-deployment")
+
+
