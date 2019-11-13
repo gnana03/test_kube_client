@@ -27,6 +27,6 @@ The framework requires
 
 ## Running the tests
 
-The sample tests for deploments are placed in **test_kube_client --> testCases** folder. To run the sample tests, open command prompt/terminal, go to test_kube_client --> testCases folder and run the following command:
+The sample tests for deploments are placed in **test_kube_client --> tests** folder. To run the sample tests, open command prompt/terminal, go to test_kube_client --> tests folder and run the following command:
 
 `pytest {filename}.py -s` (-s indicates the standard output, please refer [here](https://docs.pytest.org/en/latest/contents.html) for a detailed understanding around pytest framework and its features/plugins/options etc.)
